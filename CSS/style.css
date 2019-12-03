@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "ballpark";
+    src: url("../fonts/ballpark.woff");
+    src: url("../fonts/ballpark.eot");
+    src: url("../fonts/ballpark.ttf");
+}
+body{
+    background-color: mediumaquamarine;
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    text-indent: 1em;
+}
+article{
+    border-bottom: 2px solid green;
+}
+footer{
+    font-size: smaller;
+    text-indent: 0;
+}
+h1{
+    text-align: center;
+    font-family: arial, Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    color: white;
+    text-shadow: 10px -6px 3px #115B06;
+}
+h2{
+    text-indent: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    border: solid 1px green;
+}
+#intro{
+    width: 80%;
+    margin: auto;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    padding: 2%;
+}
+.names{
+    font-weight: bold;
+}
+.country{
+    text-decoration: underline;
+    color: red;
+}
+.org{
+    color: blue;
+}
+.date{
+    border: 1px solid black;
+}
