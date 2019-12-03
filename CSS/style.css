@@ -13,6 +13,7 @@ body{
 }
 article{
     border-bottom: 2px solid green;
+    padding-bottom: 2%;
 }
 footer{
     font-size: smaller;
@@ -34,12 +35,38 @@ hr{
     margin: auto;
     border: solid 1px green;
 }
+a{
+    color: black;
+}
+a:hover{
+    color: blue;
+    font-weight: bold;
+}
 #intro{
     width: 80%;
     margin: auto;
     border-left: 2px solid green;
     border-right: 2px solid green;
     padding: 2%;
+}
+#photoghandi{
+    float: left;
+    margin: 1%;
+}
+#photoking{
+    float: right;
+    margin: 1%;
+}
+#india{
+    float: right;
+    height: 5em;
+    padding-left: 0.5%;
+}
+#usa{
+    float: left;
+    height: 5em;
+    mix-blend-mode: multiply;
+    padding-right: 0.5%;
 }
 .names{
     font-weight: bold;
